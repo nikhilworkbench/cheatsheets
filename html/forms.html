@@ -1,22 +1,24 @@
 <!-- FORM TAG -->
 <form action="/action.php" method="post">
+  <!-- LABEL TAG -->
   <label for="username">Username:</label>
+
+  <!-- INPUT TAG -->
   <input type="text" id="username" name="username"><br>
-
   <input type="password" name="password" placeholder="Enter Password"><br>
-
   <input type="checkbox" name="subscribe" value="yes"> Subscribe<br>
-
   <input type="radio" name="gender" value="male"> Male
   <input type="radio" name="gender" value="female"> Female<br>
 
+  <!-- SELECT TAG -->
   <select name="country">
     <option value="us">USA</option>
     <option value="ca">Canada</option>
   </select><br>
 
+  <!-- TEXTAREA TAG -->
   <textarea name="comments" rows="4" cols="30"></textarea><br>
-
+  
   <input type="file" name="resume"><br>
   <input type="number" name="age" min="18" max="100"><br>
   <input type="range" name="volume" min="0" max="100"><br>
@@ -25,7 +27,14 @@
   <input type="url" name="website"><br>
   <input type="search" name="query"><br>
 
+  <!-- BUTTON TAG -->
   <button type="submit">Submit</button>
+
+  <!-- DATALIST TAG -->
+  <datalist> Provides suggested options for an input field </datalist>
+
+  <!-- PROGRESS TAG -->
+  <progress> Shows a progress bar with a value out of a maximum </progress>
 </form>
 
 
