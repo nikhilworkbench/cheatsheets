@@ -1,3 +1,0 @@
-- Document Structure
-- Metadata
-- Semantic HTML
